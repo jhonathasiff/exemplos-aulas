@@ -13,7 +13,7 @@ class _TelaPrincipalState extends State<TelaPrincipal> {
   late Database db;
   List docs = [];
 
-  atualizarLista() {
+  void atualizarLista() {
     db = Database();
     db.inicializar();
     db.listar().then(

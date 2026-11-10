@@ -3,7 +3,7 @@ import 'authentication.dart';
 import 'home.dart';
 
 class Signup extends StatelessWidget {
-  const Signup({Key? key}) : super(key: key);
+  const Signup({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -62,7 +62,7 @@ class Signup extends StatelessWidget {
 }
 
 class SignupForm extends StatefulWidget {
-  const SignupForm({Key? key}) : super(key: key);
+  const SignupForm({super.key});
 
   @override
   _SignupFormState createState() => _SignupFormState();

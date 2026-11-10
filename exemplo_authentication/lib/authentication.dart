@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthenticationHelper {
   final FirebaseAuth _auth = FirebaseAuth.instance;
-  get user => _auth.currentUser;
+  User? get user => _auth.currentUser;
 
   //CRIAR NOVO USUÁRIO
   Future<String?> signUp({

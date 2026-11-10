@@ -5,7 +5,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 class Database {
   FirebaseFirestore db = FirebaseFirestore.instance;
 
-  inicializar() {
+  void inicializar() {
     db = FirebaseFirestore.instance;
   }
 
