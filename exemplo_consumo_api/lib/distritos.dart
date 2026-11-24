@@ -14,7 +14,7 @@ class _DistritosState extends State<Distritos> {
 
   Future<void> fetchDistricts() async {
     final url = Uri.parse(
-      'https://servicodados.ibge.gov.br/api/v1/localidades/estados/RJ/distritos?orderBy=nome',
+      'https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/distritos?orderBy=nome',
     );
     final response = await http.get(url);
     final jsonData = json.decode(response.body);
